@@ -1,0 +1,18 @@
+<message xmlns:iib="http://com.ibm.iib/lt/1.0" iib:parser="WSRoot"
+	iib:injectable="true">
+	<HTTPInputHeader iib:parser="WSINPHDR">
+		<X-Server-Name iib:valueType="CHARACTER">localhost</X-Server-Name>
+		<X-Server-Port iib:valueType="CHARACTER">7800</X-Server-Port>
+		<X-Original-HTTP-Command iib:valueType="CHARACTER">PUT
+			http://localhost:7800/HttpToHttp HTTP/1.1</X-Original-HTTP-Command>
+		<Connection iib:valueType="CHARACTER">keep-alive</Connection>
+		<Transaction-Id>73489348495</Transaction-Id>
+		<Accept iib:valueType="CHARACTER">text/html, image/gif, image/jpeg, *;
+			q=.2, */*; q=.2</Accept>
+	</HTTPInputHeader>
+	<BLOB iib:parser="none">
+		<UnknownParserName iib:valueType="CHARACTER"
+			iib:elementType="0x03000000"></UnknownParserName>
+		<BLOB iib:valueType="BLOB">MESSAGE_FORMAT</BLOB>
+	</BLOB>
+</message>
